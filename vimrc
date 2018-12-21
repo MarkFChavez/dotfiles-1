@@ -67,9 +67,6 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 
-" NERDTRee
-nnoremap <leader><Tab> :NERDTree<CR>
-
 " Auto indent pasted text
 nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
