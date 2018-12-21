@@ -12,6 +12,8 @@ elif [[ $unamestr == 'Darwin' ]]; then
   platform='darwin'
 fi
 
+alias mvim='/Applications/MacVim.app/Contents/bin/mvim'
+
 # YADR support
 alias yav='yadr vim-add-plugin'
 alias ydv='yadr vim-delete-plugin'
